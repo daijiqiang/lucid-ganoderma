@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	
+}
+.body{
+	width: 1140px;
+	height: 100%;
+	margin: 0 auto;
+}
+.tubiao{
+	background: url(../img/tubiao.png);
+}
+.clear:after{
+	content: "";
+	display: inline-block;
+	clear: both;
+}
+
+
+
+
+
+/*leader*/
+.leader{
+	width: 100%;
+	height: 45px;
+	background-color: black;
+	font: 12px "Microsoft Yahei";
+	color: white;
+	line-height: 45px;
+	overflow: hidden;
+}
+.leader p{
+	float: left;
+}
+.leader ul{
+	float: right;
+}
+.leader li{
+	float: left;
+	margin-left: 40px;	
+}
+.leader a{
+	color: white;
+}
+.leader li img{
+	width: 15px;
+	height: 19px;
+	vertical-align: middle;
+}
+
+
+
+
+.box{
+	width: 100%;
+	height: 930px;
+	padding-bottom: 130px;
+	background-color: #09070e;
+}
+
+.title{
+	width: 100%;
+	height: 75px;
+	text-align: left;
+	font: 18px "Microsoft Yahei";
+	color: white;
+	line-height: 75px;
+	border-bottom: 1px #1f1a2e solid;
+}
+.culture{
+	height: 840px;
+	margin: 30px 0 70px;
+	padding: 20px 15px 40px;
+	background-color: white;
+}
+.shubiao{
+	width: 35px;
+	height: 890px;
+	float: left;
+}
+.zi p{
+	font:16px "Microsoft Yahei";
+	margin: 20px 0 40px;
+}
+.xuanyan{
+	width: 75px;
+	height: 37px;
+	line-height: 37px;
+	color: #3da4b0;
+	text-align: center;
+	border: 1px #3da4b0 solid;
+	margin-left: 35px;
+
+}
+.yuanjing{
+	width: 75px;
+	height: 37px;
+	line-height: 37px;
+	margin-left: 35px;
+	text-align: center;
+	border: 1px #f6c33b solid;
+	color: #f6c33b;
+	margin-top: -5px;
+}
+.linian{
+	width: 75px;
+	height: 37px;
+	line-height: 37px;
+	margin-left: 35px;
+	text-align: center;
+	border: 1px #ef6b59 solid;
+	color: #ef6b59;
+	margin-top: 55px;
+}
+.zi dl{
+	font:16px "Microsoft Yahei";
+	margin: 10px 0 10px;
+}
+dl dt{
+	font-weight: bold;
+}
+
+
+
+/*底部*/
+.footer{
+	width: 100%;
+	height: 80px;
+	font: 12px "Microsoft Yahei";
+	overflow: hidden;
+	background-color: #f5f6f6;
+	color: #797979;
+}
+.footer p{
+	float: right;
+}
+.footer_left ul{
+	float: left;
+	color: #797979!important;
+	line-height: 80px;
+}
+.footer_left li{
+	float: left;	
+	margin-right: 30px;	
+}
+.footer_right p{
+	float: right;
+	line-height: 80px;
+}

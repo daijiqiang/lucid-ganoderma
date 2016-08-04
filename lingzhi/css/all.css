@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	
+}
+.body{
+	width: 1140px;
+	height: 100%;
+	margin: 0 auto;
+}
+.tubiao{
+	background: url(../img/tubiao.png);
+}
+.clear:after{
+	content: "";
+	display: inline-block;
+	clear: both;
+}
+
+
+
+
+
+/*leader*/
+.leader{
+	width: 100%;
+	height: 45px;
+	background-color: black;
+	font: 12px "Microsoft Yahei";
+	color: white;
+	line-height: 45px;
+	overflow: hidden;
+}
+.leader p{
+	float: left;
+}
+.leader ul{
+	float: right;
+}
+.leader li{
+	float: left;
+	margin-left: 40px;	
+}
+.leader a{
+	color: white;
+}
+.leader li img{
+	width: 15px;
+	height: 19px;
+	vertical-align: middle;
+}
+
+
+
+.box{
+	width: 100%;
+	height: 720px;
+	padding: 40px 0;
+	background-color: #09070e;
+}
+.all{
+	height: 720px;
+	font: 10.76px "Microsoft Yahei";
+	background-color: #f5f5f5;
+	
+}
+.all>button{
+	width: 104px;
+	height: 38px;
+	background-color: #cb00da;
+	font: 20px "Microsoft Yahei";
+	color: white;
+	border: 0;
+	margin: 20px 0 0 50px;
+}
+.left{
+	float: left ;
+}
+.right{
+	float: right;
+}
+.zhi{
+	width: 1040px;
+	height: 650px;
+	margin: 0 0px 30px 50px;
+	background:url(../img/message.png);
+}
+.zhi .message ul{
+	width: 1020px;
+	height: 500px;
+	padding: 15px 10px 0;
+}
+.zhi .message ul li{
+	height: 54px;
+	border-bottom: 1px #e9e9e9 dotted;
+	padding-bottom: 20px;
+	margin: 20px 0 20px;
+	overflow: hidden;
+}
+.zhi .message .tuwen p{
+	vertical-align: middle;
+}
+.tuwen {
+	width: 780px;
+	vertical-align: middle;
+}
+.tuwen img{
+	margin-right: 9px;
+}
+.dizhi{
+	margin-top: 35px;
+}
+
+
+
+
+
+
+
+/*页码*/
+.page ul{
+	height: 25px;
+	float: right;
+	margin: 15px 0 35px;
+	padding-right: 10px;
+	background-color: none!important;
+}
+.page li{
+	font:11px "Microsoft Yahei";
+	line-height: 25px;
+	float: left;
+	margin-left: 3px;
+}
+.page li button{
+	width: 25px;
+	height: 25px;
+	border:0;
+}
+.page input,.button{
+	width: 50px !important;
+	text-align: center;
+}
+.page li button:hover{
+	color: white;
+	background-color:#7b2783; 
+}
+
+
+
+
+
+
+
+
+
+/*底部*/
+.footer{
+	width: 100%;
+	height: 80px;
+	font: 12px "Microsoft Yahei";
+	overflow: hidden;
+	background-color: #f5f6f6;
+	color: #797979;
+}
+.footer p{
+	float: right;
+}
+.footer_left ul{
+	float: left;
+	color: #797979!important;
+	line-height: 80px;
+}
+.footer_left li{
+	float: left;	
+	margin-right: 30px;	
+}
+.footer_right p{
+	float: right;
+	line-height: 80px;
+}

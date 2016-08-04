@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	
+}
+.body{
+	width: 1140px;
+	height: 100%;
+	margin: 0 auto;
+}
+.tubiao{
+	background: url(../img/tubiao.png);
+}
+.clear:after{
+	content: "";
+	display: inline-block;
+	clear: both;
+}
+
+
+
+
+
+/*leader*/
+.leader{
+	width: 100%;
+	height: 45px;
+	background-color: black;
+	font: 12px "Microsoft Yahei";
+	color: white;
+	line-height: 45px;
+	overflow: hidden;
+}
+.leader p{
+	float: left;
+}
+.leader ul{
+	float: right;
+}
+.leader li{
+	float: left;
+	margin-left: 40px;	
+}
+.leader a{
+	color: white;
+}
+.leader li img{
+	width: 15px;
+	height: 19px;
+	vertical-align: middle;
+}
+
+
+
+
+.box{
+	width: 100%;
+	height: 920px;
+	background: url(../img/lianxi-beijing.png);
+	background-position: center;
+}
+.sanjiao{
+	height: 920px;
+	margin: 0 auto;
+	background: url(../img/lianxi.png);
+	background-position: center;
+}
+.sanjiao>button{
+	width: 104px;
+	height: 38px;
+	margin: 50px 0 0 390px;
+
+	background-color: #cb00da;
+	font: 20px "Microsoft Yahei";
+	color: white;
+	border: 0;
+}
+.lianxi{
+	width: 540px;
+	height: 150px;
+	margin: 0 auto;
+	padding: 40px 15px;
+	color: #cbcbcb;
+	background: url(../img/lianxi_01.png);
+}
+.lianxi>p{
+	font:16px "Microsoft Yahei";
+	font-weight: bold;
+	color: black;
+	margin-bottom: 40px;
+}
+.left{
+	float: left; 
+}
+.right{
+	float: right;
+}
+.lianxi li{
+	width: 250px;
+	height: 25px;
+	font:14px "Microsoft Yahei";
+	line-height: 25px;
+	overflow: hidden;
+}
+.lianxi li p{
+	vertical-align: middle;
+	float: left;
+}
+.tap{
+	width: 400px;
+	height: 244px;
+	margin: 0 auto;
+	background: url(../img/lianxi_02.png);
+}
+.tibiao1{
+	float: left;
+	margin-top: 3px;
+	margin-right: 5px;
+	display: inline-block;
+	background: url(../img/tubiao1.png);
+}
+.email{
+	width: 12px;
+	height: 25px;
+	background-position: -34px -27px;
+}
+.address{
+	width: 12px;
+	height: 25px;
+	background-position: -34px -3px;
+}
+.telphone{
+	width: 12px;
+	height: 25px;
+	background-position: -2px -3px;
+}
+.wangzhi{
+	width: 12px;
+	height: 25px;
+	background-position: -2px -29px;
+}
+
+
+
+
+/*底部*/
+.footer{
+	width: 100%;
+	height: 80px;
+	font: 12px "Microsoft Yahei";
+	overflow: hidden;
+	background-color: #f5f6f6;
+	color: #797979;
+}
+.footer p{
+	float: right;
+}
+.footer_left ul{
+	float: left;
+	color: #797979!important;
+	line-height: 80px;
+}
+.footer_left li{
+	float: left;	
+	margin-right: 30px;	
+}
+.footer_right p{
+	float: right;
+	line-height: 80px;
+}

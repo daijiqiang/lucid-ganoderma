@@ -1,0 +1,205 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #797979;
+}
+.body{
+	width: 1140px;
+	height: 100%;
+	margin: 0 auto;
+}
+.tubiao{
+	background: url(../img/tubiao.png);
+}
+.clear:after{
+	content: "";
+	display: inline-block;
+	clear: both;
+}
+
+
+
+
+
+/*leader*/
+.leader{
+	width: 100%;
+	height: 45px;
+	background-color: black;
+	font: 12px "Microsoft Yahei";
+	color: white;
+	line-height: 45px;
+	overflow: hidden;
+}
+.leader p{
+	float: left;
+}
+.leader ul{
+	float: right;
+}
+.leader li{
+	float: left;
+	margin-left: 40px;	
+}
+.leader a{
+	color: white;
+}
+.leader li img{
+	width: 15px;
+	height: 19px;
+	vertical-align: middle;
+}
+
+
+
+/*头部*/
+.top{
+	width: 100%;
+	height: 920px;
+	background-color: #09070e;
+	line-height: 920px;
+
+}
+.left{
+	width:730px; 
+	float: left;
+}
+.right{
+	width: 400px;
+	float: right;
+}
+
+
+
+/*导航栏*/
+.nav{
+	width: 100%;
+	height: 42px;
+	background-color: #f5f6f6;
+	font: 12px "Microsoft Yahei";
+	color: #666666; 
+	line-height: 42px;	
+	vertical-align: middle;
+}
+.nav li{
+	float: left;
+	margin-right: 138px;
+
+}
+.nav li i{
+	width: 14px;
+	height: 20px;
+	display: inline-block;
+	float: left;
+	line-height: 42px;
+	margin: 13px 1px 11px ;
+}
+.li{
+	margin-right: 0 !important;
+}
+.nav li p{
+	float: left;
+}
+.telphone{
+	background-position: -125px -49px;
+}
+.chuanzhen{
+	background-position: -91px -50px;
+}
+.email{
+	background-position: -54px -51px;
+}
+.qq{
+	background-position: -20px -51px;
+}
+
+
+
+/*触发器*/
+.contact{
+	width: 100%;
+	height: 462px;
+	margin-bottom: 45px;
+	overflow: hidden;
+}
+.contact .body{
+	margin-top: 50px;
+	margin-bottom: 45px;
+}
+.contact .body img:hover div{
+	display: block;
+}
+.contact_left{
+	width: 450px;
+	height: 424px;
+	float: left;
+}
+.contact_center{
+	width: 460px;
+	margin: 0 3px;
+	float: left;
+}
+.you{
+	float: right;
+}
+.yincang{
+	width: 102px;
+	height: 60px;
+	background-color: #666666;
+	opacity: 0.2;
+	display: block;
+	position: relative;
+	margin-top: -210px;
+}
+.yicang span{
+	width: 106px;
+	height: 72px;
+	display: inline-block;
+	background-color: #ff48ce;
+	float: left;
+}
+.jiange1{
+	margin-right: 3px;
+}
+.jiange2{
+	margin-left: 7px;
+}
+.jiange3{
+	margin-top: 2px;
+}
+
+
+
+
+/*底部*/
+.footer{
+	width: 100%;
+	height: 80px;
+	font: 12px "Microsoft Yahei";
+	overflow: hidden;
+	background-color: #f5f6f6;
+	color: #9f9f9f;
+}
+.footer p{
+	float: right;
+}
+.footer_left ul{
+	float: left;
+	
+	line-height: 80px;
+}
+.footer_left li{
+	float: left;	
+	margin-right: 30px;	
+	color: #9f9f9f !important;
+}
+.footer_right p{
+	float: right;
+	line-height: 80px;
+}

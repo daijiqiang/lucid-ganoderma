@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	
+}
+.body{
+	width: 1140px;
+	height: 100%;
+	margin: 0 auto;
+}
+.tubiao{
+	background: url(../img/tubiao.png);
+}
+.clear:after{
+	content: "";
+	display: inline-block;
+	clear: both;
+}
+
+
+
+
+
+
+/*leader*/
+.leader{
+	width: 100%;
+	height: 45px;
+	background-color: black;
+	font: 12px "Microsoft Yahei";
+	color: white;
+	line-height: 45px;
+	overflow: hidden;
+}
+.leader p{
+	float: left;
+}
+.leader ul{
+	float: right;
+}
+.leader li{
+	float: left;
+	margin-left: 40px;	
+}
+.leader a{
+	color: white;
+}
+.leader li img{
+	width: 15px;
+	height: 19px;
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+.box{
+	width: 100%;
+	height: 565px;
+	padding-bottom: 80px; 
+	background-color: black;
+	overflow: hidden;
+}
+.box .zhi{
+	height: 540px;
+	background-color: white;
+	margin-top: 55px;
+	overflow: hidden;	
+}
+.box .zhi button{
+	width: 107px;
+	height: 27px;
+	background-color: #cb00da;
+	border:0;
+	font: 15.39px "Microsoft Yahei";
+	color: white;
+	margin: 55px 0 0 69px; 
+	float: left;
+}
+.zhi .letter{
+	width: 1088px;
+	height: 360px;
+	background: url(../img/beijing_01.png);
+	margin: 0 auto;
+	margin: 71px 0 0 27px;
+	padding-top: 50px ;
+}
+.letter p{
+	width: 900px;
+	margin: 0 auto;
+	font: 16px "宋体";
+	text-indent: 24px;
+}
+.leader .contact img{
+	width: 442px;
+	height: 464px;
+
+	display: block;
+	position: relative;
+	z-index: 999;
+}
+/*.leader .contact img{
+	width: 442px;
+	height: 464px;	 
+	display: block;
+}*/
+.leader .li:hover .contact{
+	display: block;
+}
+
+
+
+
+
+/*底部*/
+.footer{
+	width: 100%;
+	height: 80px;
+	font: 12px "Microsoft Yahei";
+	overflow: hidden;
+	background-color: #f5f6f6;
+	color: #797979;
+}
+.footer p{
+	float: right;
+}
+.footer_left ul{
+	float: left;
+	color: #797979!important;
+	line-height: 80px;
+}
+.footer_left li{
+	float: left;	
+	margin-right: 30px;	
+}
+.footer_right p{
+	float: right;
+	line-height: 80px;
+}
